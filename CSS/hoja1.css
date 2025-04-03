@@ -1,0 +1,50 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(196, 169, 129)
+}
+nav img{
+    width: 150px;
+}
+nav a{
+    font-size: 19px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav img{
+    width: 100px;
+}
+nav a{
+    text-decoration: none;
+ }
+ 
+ .tarjeta {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.card img {
+    width: 250px; 
+    height: auto;
+}
+footer{
+    text-align: center;
+    padding: auto;
+    width: 100%;
+    background-color: antiquewhite;
+    flex-direction: column;
+
+}
