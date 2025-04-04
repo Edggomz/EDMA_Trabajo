@@ -1,4 +1,58 @@
+@media (width <= 800px) {
 
+    nav {
+
+        flex-direction: column;
+
+    }
+
+
+
+    nav img {
+
+        justify-content: center;
+
+    }
+
+
+
+    header {
+
+        justify-content: center;
+
+        display: flex;
+
+    }
+
+
+
+    .iag img {
+
+        width: 100%;
+
+        height: 200px;
+
+    }
+
+
+
+    .iag {
+
+        flex-direction: column;
+
+    }
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1; 
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -23,9 +77,8 @@ nav a{
  
  .tarjeta {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 20px; 
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -37,14 +90,15 @@ nav a{
 }
 
 .card img {
-    width: 250px; 
+    width: 500px; 
     height: auto;
 }
-footer{
+footer {
     text-align: center;
-    padding: auto;
+    padding: 10px;
     width: 100%;
     background-color: antiquewhite;
-    flex-direction: column;
-
+    position: absolute; 
+    bottom: 0;
+    left: 0;
 }
